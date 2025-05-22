@@ -12,14 +12,24 @@ To write a Python program that handles an **IndexError** when trying to access a
 
 ## 🧾 Program
 ```
-msg=[5, 10, 20]
+
+
 try:
-    print(msg[5])
+    # Taking 3 elements input from the user
+    L = []
+    for i in range(3):
+        item = ['laptop','mobile','pen']
+        L.append(item)
+
+    # Trying to access index 4
+    print(L[4])
+
 except IndexError:
-    print("You're out of list range")
+    print("check index range")
 ```
+
 ## Output
-![Screenshot (147)](https://github.com/user-attachments/assets/fde69dc4-5594-42fd-87aa-57344f54a59f)
+![image](https://github.com/user-attachments/assets/b2acd206-0aeb-4ec2-a40f-e911fa9e5066)
 
 ## Result
-Thus,the program has been executed successfully.
+Thus the program executed successfully.
